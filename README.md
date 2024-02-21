@@ -6,7 +6,7 @@ Detect texts in the pages using _YOLOv8_ -> Execute OCR on the detected texts us
 
 The project was primarly designed for this task but you can also use the folders to finetune the models I used for you own tasks. Just go to the folder you want, modify its config.ini then execute the bash scripts that has the name of its corresponding folder (the README in each folder will guide you)
 
-![Alt image](imgs/bocchi_boxes.png =200x200)
+![Alt image](imgs/bocchi_boxes.png)
 
 <div>
     <img src="imgs/translated_box.png" width="48%">

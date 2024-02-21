@@ -1,0 +1,21 @@
+# necessary for roboflow apparently
+pip install fastapi --quiet
+pip install kaleido --quiet
+pip install python-multipart --quiet
+pip install uvicorn --quiet
+#sudo apt -qq install bc
+
+# YOLOv8 + roboflow
+pip install ultralytics --quiet
+pip install roboflow --quiet
+
+# tesseract for OCR
+pip install pytesseract --quiet
+#sudo apt -qq install tesseract-ocr
+
+# transformers from Huggingface
+pip install -U transformers --quiet
+pip install -U accelerate --quiet
+pip install datasets --quiet
+pip install tensorboard --quiet
+pip install sacrebleu --quiet

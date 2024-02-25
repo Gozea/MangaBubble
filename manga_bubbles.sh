@@ -1,8 +1,8 @@
 read -p "Do you wish to first finetune models ? [Y/N]" answer
 
-yolo_dir=$(awk '/yolo_dir/ { print $3 }' config.ini}
-tesseract_dir=$(awk '/tesseract_dir/ { print $3 }' config.ini}
-mbart_dir=$(awk '/mbart_dir/ { print $3 }' config.ini}
+yolo_dir=$(awk '/yolo_dir/ { print $3 }' config.ini)
+tesseract_dir=$(awk '/tesseract_dir/ { print $3 }' config.ini)
+mbart_dir=$(awk '/mbart_dir/ { print $3 }' config.ini)
 
 if [ "$answer" = "Y" || "$answer" = "y"]; then
     read -p "Do you wish to finetune the YOLO model ?" answer

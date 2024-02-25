@@ -1,10 +1,12 @@
 # Manga Bubbles
 
-This repository is a project for automatic translation of Manga pages. The pipeline is the following :
+This repository is a project for automatic translation of Manga pages. It uses 3 successives Machine-learning models to achieves its task, following these steps :
 
-Detect texts in the pages using _YOLOv8_ -> Execute OCR on the detected texts using _Tesseract_ -> Translate the texts using _mBART_
+1. Use _YOLOv8_ to detect texts in a page in order to isolate them from the rest of the page
+2. Use _Tesseract_ to apply OCR on the cropped texts
+3. Translate japanese texts to english using _mBART_
 
-The project was primarly designed for this task but you can also use the folders to finetune the models I used for you own tasks. Just go to the folder you want, modify its config.ini then execute the bash scripts that has the name of its corresponding folder (the README in each folder will guide you)
+The project was primarly designed for this task but you can use each model separately for your own tasks. Each folder is associated to one model (3 folders for 3 models) so you can finetune them separately. Just go to the folder you want, modify its config.ini then execute the bash scripts that has the name of its corresponding folder (the README in each folder will guide you)
 
 ![Alt image](imgs/bocchi_boxes.png)
 

@@ -11,7 +11,7 @@ You can finetune the model if you 're not satisfied with the current accuracy of
 
 ```chmod a+x yolo.sh && ./yolo.sh```
 
-Doing so will ask you if you want to download the Manga-Detect-3 dataset using the Roboflow API (you will have to create [an account](https://roboflow.com/)) by using your Roboflow API key. Be aware that the dataset used by default has NSFW content.
+Doing so will ask you if you want to download the Manga-Detect-3 dataset using the Roboflow API (you will have to create [an account](https://roboflow.com/)) by using your Roboflow API key. Be aware that this dataset has NSFW content.
 
 ### Finetuning using a custom dataset
 

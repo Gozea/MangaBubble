@@ -30,3 +30,7 @@ To execute this repository, you can use the bash script :
 The script will guide you whether you want to finetune the different models further, then will execute the python file _manga_bubbles.py_
 
 The repository comes with an exemple image _bocchi.jpg_ but you can also add you own image to this repo, then modify the config.ini file to apply the pipeline on it (you only have to change the variable _image_ to the name of you image)
+
+### Jupyter Notebook
+
+You can also follow the Jupyter Notebook in _manga\_bubbles.ipynb_.

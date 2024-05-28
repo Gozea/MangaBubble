@@ -34,3 +34,7 @@ The repository comes with an exemple image _bocchi.jpg_ but you can also add you
 ### Jupyter Notebook
 
 You can also follow the Jupyter Notebook in _manga\_bubbles.ipynb_.
+
+### Deployment and usage
+
+You can deploy the models on your server with Docker by executing the Dockerfile in this [repository](https://github.com/Gozea/manga2text-deploy)

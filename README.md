@@ -38,3 +38,5 @@ You can also follow the Jupyter Notebook in _manga\_bubbles.ipynb_.
 ### Deployment and usage
 
 You can deploy the models on your server with Docker by executing the Dockerfile in this [repository](https://github.com/Gozea/manga2text-deploy)
+
+You can also use it through a firefox extension with the code [here](https://github.com/Gozea/manga2text-extension)
